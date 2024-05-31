@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+// @import "minima";
+$icon-size: 16px;
+$font-family: "Manrope";
+$display-font: "Playfair Display";
+$color-lighter: #CCCCCC;
+
+.svg-icon {
+    width: $icon-size;
+    height: $icon-size;
+}
+.site-brand{
+    position: relative;
+}
+.site-title {
+    font-family: $display-font;
+}
+.site-subtitle {
+    position:relative;
+    text-align: center;
+    letter-spacing: 1em;
+    text-transform: uppercase;
+    color: #CCCCCC;
+    padding-left: 1em;
+}
+body{
+    font-family: $font-family;
+}
+.nav-item.active{
+    border-bottom: 2px solid #191919;
+}
