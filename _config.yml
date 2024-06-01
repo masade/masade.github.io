@@ -39,6 +39,7 @@ nav:
     link: "/quotes/"
 # Build settings
 # theme: minima
+permalink: /:categories/:title.html
 plugins_dir: _plugins
 plugins:
   - jekyll-feed
