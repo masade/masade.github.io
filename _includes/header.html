@@ -2,8 +2,8 @@
   <div class="container text-center">
     <div class="row justify-content-center pt-5">
       <div class="col-md-8 site-brand">
-        <h1 class=" display-1 site-title mb-0">{{ site.title | escape }}</h1>
-        <h6 class="site-subtitle">Paresh Masade</h6>
+        <h1 class=" display-1 site-title mb-0">{{ site.title | escape | upcase}}</h1>
+        <h6 class="site-subtitle">{{ site.author | escape }}</h6>
       </div>
       <div class="col-md-8">
         <nav class="navbar d-block1 justify-content-center">

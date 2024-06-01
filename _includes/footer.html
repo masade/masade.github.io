@@ -1,11 +1,8 @@
 <footer>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-6 text-center">
-        <p>{{- site.description | escape -}}</p>
-        {%- include social.html -%}
-        <p class="rss-subscribe py-2">subscribe <a href="{{ " /feed.xml" | relative_url }}">via RSS</a></p>
-        Copyright &copy; 2024
+      <div class="col-md-6 text-center text-lighter py-5">
+        Copyright &copy; {{ "now" | date: "%Y" | to_roman | downcase}}
       </div>
     </div>
   </div>

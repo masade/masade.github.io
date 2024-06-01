@@ -3,9 +3,17 @@
 ---
 // @import "minima";
 $icon-size: 16px;
-$font-family: "Manrope";
+$default-font: "Manrope";
 $display-font: "Playfair Display";
 $color-lighter: #CCCCCC;
+$color-black: #191919;
+
+
+body {
+    font-family: $default-font;
+    color: $color-black;
+}
+h1,h2,h3{font-family: $display-font;}
 
 .svg-icon {
     width: $icon-size;
@@ -25,9 +33,21 @@ $color-lighter: #CCCCCC;
     color: #CCCCCC;
     padding-left: 1em;
 }
-body{
-    font-family: $font-family;
+.page-title{
+    // text-align: center;
+}
+.post-content{
+    line-height: 1.6em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.post-content p{
+    margin-bottom: 1.2em;
 }
 .nav-item.active{
     border-bottom: 2px solid #191919;
+}
+
+.text-lighter{
+    color: #CCCCCC
 }
