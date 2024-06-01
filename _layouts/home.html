@@ -12,13 +12,13 @@ layout: default
   {%- if site.posts.size > 0 -%}
   <h2 class="post-list-heading d-none">{{ page.list_title | default: "Posts" }}</h2>
   {%- for post in site.posts -%}
-  <h5 class="border-bottom d-flex py-3 mb-1">
+  <h5 class="border-bottom row py-3 mb-1">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
-    <a class="text-dark  text-decoration-none col" href="{{ post.url | relative_url }}">
+    <a class="text-dark  text-decoration-none col-sm-8 col-md-9" href="{{ post.url | relative_url }}">
       {{ post.title | escape }}
     </a>
-    <span class="post-meta col-md-3 text-end">{{ post.date | date: date_format }}</span>
+    <small class="post-meta col-sm-4 col-md-3 text-end text-lighter">{{ post.date | date: date_format }}</small>
   </h5>
   {%- endfor -%}
 
