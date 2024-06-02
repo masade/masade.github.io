@@ -4,7 +4,7 @@ title:  "Kaise Mai Izhar Karu"
 date:   2012-11-10 00:00:00 +0530
 categories: poetry
 ---
-A small snippet of a young boy questioning the love.
+*A small snippet of a young boy questioning the love.*
 
 Kaise mai izhaar karu,<br/>
 Ye jo hai dil ki baat<br/>
