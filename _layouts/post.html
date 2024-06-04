@@ -16,6 +16,9 @@ layout: default
           • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
               itemprop="name">{{ page.author }}</span></span>
           {%- endif -%}
+          {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}" class="tag">{{tag}}</a>
+          {% endfor %}
         </p>
       </header>
 

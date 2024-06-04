@@ -54,6 +54,15 @@ h1,h2,h3{font-family: $display-font;}
 .text-lighter {
     color: #CCCCCC
 }
+.tag{
+    border-radius: 20px;
+    font-size: .9em;
+    color: $color-black;
+    text-decoration: none;
+    background-color: #E1E2E5;
+    padding: 2px 10px;
+    margin:0 2px;
+}
 
 @media only screen and (max-width: 767px) {
     .site-subtitle {
