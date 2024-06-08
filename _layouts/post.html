@@ -16,9 +16,7 @@ layout: default
           • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
               itemprop="name">{{ page.author }}</span></span>
           {%- endif -%}
-          {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}" class="tag">{{tag}}</a>
-          {% endfor %}
+
         </p>
       </header>
 
@@ -29,6 +27,12 @@ layout: default
       {%- if site.disqus.shortname -%}
       {%- include disqus_comments.html -%}
       {%- endif -%}
+
+      <div>
+        {% for tag in page.tags %}
+        <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}" class="tag">{{tag}}</a>
+        {% endfor %}
+      </div>
 
       <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
     </article>
