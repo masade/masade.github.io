@@ -28,6 +28,7 @@ url: "https://www.sh-er-pa.com" # the base hostname & protocol for your site, e.
 twitter_username: masade
 linkedin_username: masade
 strava_username: pareshmasade
+google_analytics: G-SGCL5ETQGC
 
 tag_page_layout: tag
 tag_page_dir: tag
