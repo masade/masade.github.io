@@ -3,6 +3,7 @@ layout: post
 title:  "Kaise Mai Izhar Karu"
 date:   2012-11-10 00:00:00 +0530
 categories: poetry
+tags: poem love
 ---
 *A small snippet of a young boy questioning the love.*
 

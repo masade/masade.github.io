@@ -3,6 +3,7 @@ layout: post
 title:  "Aawaara Main Naa Ban Paaya"
 date:   2012-02-14 00:00:00 +0530
 categories: poetry
+tags: poem love
 ---
 
 Aawaara main naa ban paaya

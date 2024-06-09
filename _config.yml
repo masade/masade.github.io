@@ -27,21 +27,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.sh-er-pa.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: masade
 linkedin_username: masade
+strava_username: pareshmasade
 
 tag_page_layout: tag
 tag_page_dir: tag
 tag_permalink_style: pretty
 
-# Navigation
-nav:
-  - name: "Home"
-    link: "/"
-  - name: "About"
-    link: "/about/"
-  - name: "Poetry"
-    link: "/poetry/"
-  - name: "Quotes"
-    link: "/quotes/"
 # Build settings
 # theme: minima
 permalink: /:categories/:title.html

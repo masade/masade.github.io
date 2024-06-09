@@ -1,0 +1,11 @@
+# Navigation
+- name: "Home"
+  link: "/"
+- name: "About"
+  link: "/about/"
+- name: "Poetry"
+  link: "/poetry/"
+- name: "Thoughts"
+  link: "/thoughts/"
+- name: "Inspiration"
+  link: "/inspiration/"

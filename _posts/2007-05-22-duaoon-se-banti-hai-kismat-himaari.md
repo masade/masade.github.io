@@ -3,7 +3,7 @@ layout: post
 title:  "Duaoon se Banti hai Kismat Humaari"
 date:   2007-05-22 00:00:00 +0530
 categories: poetry
-tags: sher kismat
+tags: sher friendship
 ---
 
 Kisi ney kaha...

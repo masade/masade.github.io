@@ -8,7 +8,7 @@
       <div class="col-md-8">
         <nav class="navbar d-block1 justify-content-center">
           <ul class="navbar-nav flex-row text-center">
-            {% for item in site.nav %}
+            {% for item in site.data.nav %}
             <li class="nav-item px-md-1 px-0 mx-md-2 mx-1 {% if page.url == item.link %}active{% endif %}">
               <a class="nav-link p-1" href="{{ item.link }}">{{ item.name }}</a>
             </li>
