@@ -6,12 +6,10 @@ categories: poetry
 tags: sher kismat
 ---
 
-Kisi ney kaha...<br/>
-Duaoon se banti hai kismat humaari<br/>
-Aap jaise dostoon ki dua hoo to,<br/>
-khudaa apni haaton se banaayega kismat hamaari<br/>
-
-<br/>
+Kisi ney kaha...
+Duaoon se banti hai kismat humaari
+Aap jaise dostoon ki dua hoo to,
+Khudaa apni haaton se banaayega kismat hamaari
 
 ---
 *Came up impromptu while I was chatting with my senior, Sandeep Pratap, who helped me a lot to get admission into NITIE. He wished me all the very best.*
