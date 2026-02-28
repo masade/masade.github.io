@@ -3,6 +3,15 @@ layout: default
 ---
 <div class="mb-5">
 
+<h2 class="page-title">Alumni Relations</h2>
+
+{% for link in site.data.alumni-relations %}
+    <h5 class="border-bottom row py-3 mb-1"><a href="{{ link.url }}" target="_blank" class="text-dark  text-decoration-none">{{ link.text }}</a></h5>
+{% endfor %}
+
+</div>
+<div class="mb-5">
+
 <h2 class="page-title">Articles</h2>
 
 {% for link in site.data.articles %}
