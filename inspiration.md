@@ -5,9 +5,6 @@ permalink: /inspiration/
 ---
 <h1 class="mb-3 page-title">{{ page.title | escape }}</h1>
 <div class="mb-5">
-{% for link in site.data.inspiration %}
-    <h5 class="border-bottom row py-3 mb-1"><a href="{{ link.url }}" target="_blank" class="text-dark  text-decoration-none">{{ link.text }}</a></h5>
-{% endfor %}
 {%- for post in site.categories.inspiration -%}
 <h5 class="border-bottom row py-3 mb-1">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
